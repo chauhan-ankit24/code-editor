@@ -1,0 +1,45 @@
+.code-editor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    color: #f8f8f2;
+    height: 70vh;
+    box-sizing: border-box;
+}
+
+.editor-panel {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-heading {
+    text-align: left;
+    color: #d642cf;
+    margin-bottom: 10px;
+}
+
+
+.code-textarea {
+    width: 100%;
+    height: calc(100% - 40px);
+    padding: 10px;
+    background-color: #F0F2F5;
+    color: black;
+    border: 1px solid #44475a;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    resize: none;
+}
+
+.code-preview {
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid #44475a;
+    border-radius: 5px;
+    background-color: #282a36;
+}
