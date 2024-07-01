@@ -1,15 +1,11 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import './Editor.css';
 
 const Editor = ({
     value,
     onValueChange,
-    highlight,
     tabSize,
-    insertSpaces,
     ignoreTabKey,
-    padding,
     style,
     textareaClassName,
     placeholder
